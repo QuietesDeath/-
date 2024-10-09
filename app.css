@@ -1,6 +1,7 @@
 body{ 
     background-color: #000028;
-    
+    width: 1024;
+    height: 768;
 }
 
 @font-face {
@@ -19,6 +20,7 @@ body{
     background-image: url(assest/cover-image-dark.png);
     width: 1024px;
     height: 768px;
+    position: relative;
 }
 
 .theme-a {
@@ -42,10 +44,31 @@ body{
     background-color: #FF0070;
     width: 492px;
     height: 71px;
+    position: absolute;
     text-align: left;
-
 }
 
 .theme-sw {
-    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.focus {
+    color: #DB00FF;
+    text-shadow: 4px 4px 0 #FF0070;
+    font-family: PlexMono-bold;
+    font-size:  150px;
+}
+
+div {
+    box-shadow: #FF0070;
+}
+
+.lamp {
+    font-family: PlexMono-regular, sans-serif;
+    display: flex;
+    justify-content: right;
+    width: 52;
+    height: 26;
+    color: #FF0070;
 }
