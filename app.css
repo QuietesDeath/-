@@ -45,6 +45,8 @@ body{
     width: 492px;
     height: 71px;
     position: absolute;
+    left: 532;
+    right: 0;
     text-align: left;
 }
 
