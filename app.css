@@ -1,5 +1,4 @@
 body{ 
-    background-color: #000028;
     width: 1024;
     height: 768;
 }
@@ -72,4 +71,27 @@ div {
     width: 52;
     height: 26;
     color: #FF0070;
+}
+
+main {
+    background-color: #000028;
+    position: relative;
+    width: 1024px;
+    height: 768px;
+}
+
+.main-title {
+    color: #FF0070;
+    position: absolute;
+    font-family: PlexMono-bold;
+    height: 47px;
+    left: 20px;
+}
+
+.p2-on-main {
+    color: #F1B2CE;
+    font-family: PlexMono-regular, sans-serif;
+    position: absolute;
+    left: 354.89px;
+
 }
