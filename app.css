@@ -75,23 +75,97 @@ div {
 
 main {
     background-color: #000028;
-    position: relative;
+    position: absolute;
     width: 1024px;
-    height: 768px;
+    height: 3352px;
+    top: 828px;
+    gap: 0px;
+    opacity: 0px;
+
 }
 
 .main-title {
     color: #FF0070;
     position: absolute;
     font-family: PlexMono-bold;
+    width: 314.96px;
     height: 47px;
     left: 20px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.main-part1 {
+    display: fixed;
+    width: Fixed (1,024px)px;
+    height: Fixed (508px)px;
+    top: 828px;
+    padding: 0px 20px 0px 20px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.p1-on-main {
+    display: flex;
+    position: absolute;
+    background-color: #FF0070;
+    color: #000028;
+    font-family: PlexMono-bold;
+    text-align: left;
+    width: 648.92px;
+    height: 23px;
+    left: 354.89px;
+    gap: 0px;
+    opacity: 0px;    
+
 }
 
 .p2-on-main {
     color: #F1B2CE;
     font-family: PlexMono-regular, sans-serif;
+    line-height: 23.4px;
     position: absolute;
+    width: 648.92px;
+    height: 211px;
+    top: 33px;
     left: 354.89px;
+    gap: 0px;
+    opacity: 0px;
 
+}
+
+.p3-on-main {
+    display: flex;
+    position: absolute;
+    background-color: #FF0070;
+    color: #000028;
+    font-family: PlexMono-bold;
+    text-align: left;
+    width: 648.92px;
+    height: 23px;
+    top: 264px;
+    left: 355.08px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.p4-on-main {
+    position: absolute;
+    color: #F1B2CE;
+    font-family: PlexMono-regular, sans-serif;
+    letter-spacing: 3px;
+    width: 648.92px;
+    height: 211px;
+    top: 297px;
+    left: 355.08px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.span-on-p2 {
+    text-shadow: 2px 2px 0 #FF0070;
 }
